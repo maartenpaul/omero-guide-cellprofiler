@@ -31,11 +31,11 @@ Then, create the environment:
 
     $ git clone https://github.com/ome/omero-guide-cellprofiler
     $ cd omero-guide-cellprofiler
-    $ mamba env create -n omero-guide-cellprofiler -f binder/environment.yml
+    $ mamba env create -f binder/environment.yml
 
 For OS X arm64 Apple Silicon
 
-    $ CONDA_SUBDIR=osx-64 mamba env create -n omero-guide-cellprofiler -f binder/environment.yml
+    $ CONDA_SUBDIR=osx-64 mamba env create -f binder/environment.yml
 
 and activate the newly created environment:
 
