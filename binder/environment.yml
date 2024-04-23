@@ -24,4 +24,4 @@ dependencies:
   - pip:
     - jupyter==1.0.0
     - ome-zarr
-    - git+https://github.com/CellProfiler/CellProfiler.git@v4.2.4
+    - git+https://github.com/CellProfiler/CellProfiler.git@v4.2.6
